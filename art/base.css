@@ -1,0 +1,442 @@
+@charset "UTF-8";
+
+body  {
+    background: #ffffff;
+    margin: 0; 
+    padding: 0;
+    text-align: center;
+    color: #000000;
+    font-family: "Lucida Grande CE", Verdana, Arial, Helvetica, sans-serif;
+    background-image: url(bluegradient.png);
+    background-repeat: repeat-x;
+}
+
+a:link, a:active, a:visited {
+    color:#CC0000;
+    text-decoration:none;
+}
+
+a:hover {
+    color:#CC0000;
+    text-decoration:underline;
+}
+
+/* <-- begin css applying to sub-splash pages */
+
+.base #container {
+    position: relative;
+    width: 920px;
+    margin: 0 auto;
+    text-align: left;
+} 
+
+.base #header {
+    padding: 0;
+    background-image: url(foneshow-head-graphic-ticker-bg.png);
+    background-repeat: no-repeat;
+    margin: 0px;
+    height: 45px;
+}
+
+.base #header h1 {
+    margin: 0;
+    padding: 0;
+    visibility: hidden;
+}
+
+.base #container #ticker {
+    background-color: #fef89a;
+    padding: 5px;
+    margin-top: 0px;
+    font-size:11px;
+}
+
+.base #nav {
+    background-color: #CC0000;
+    color: #FFFFFF;
+    padding: 5px 15px 5px 5px;
+    margin-right: 10px;
+    margin-left: 10px;
+    text-align: right;
+    font-size:11px;
+}
+
+.base #container #nav a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.base #sidebar1 {
+    width: 160px;
+    background: #EBEBEB;
+    padding: 15px 10px 15px 20px;
+    margin-top: 20px;
+    font-size:11px;
+    float: left;
+    margin-bottom: 10px;
+}
+
+.base #sidebar1 ul {
+    list-style-position: inside;
+    list-style-type: none;
+}
+
+.base #sidebar2 {
+    right: 0;
+    width: 160px;
+    background: #EBEBEB;
+    padding: 15px 10px 15px 20px;
+    margin-top: 20px;
+    font-size:11px;
+    float: right;
+}
+
+.base #sidebar2 ul {
+    list-style-position: inside;
+    list-style-type: none;
+}
+
+.base #mainContent {
+    margin: 0 200px;
+    padding: 0 10px;
+    border: solid #DDDDDD 1px;
+    margin-top: 20px;
+    background-color: #FFFFFF;
+}
+
+.base #mainContent h1 {
+    font-size:18px;
+}
+
+.base #mainContent p {
+    font-size:11px;
+}
+
+/* <-- main content block for no-left-sidebar version */
+
+.base #mainContentNoLeft {
+    margin-right: 200px;
+    margin-left: 0px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    padding: 0 10px;
+    border: solid #DDDDDD 1px;
+    background-color: #FFFFFF;
+}
+
+.base #mainContentNoLeft h1 {
+    font-size:18px;
+}
+
+.base #mainContentNoLeft p {
+    font-size:11px;
+}
+
+/* --> end main content block for no-left-sidebar version */
+
+.base #subContent {
+    background-color: #FFFFFF;
+    margin: 0 200px;
+    padding: 0;
+    font-size:11px;
+    margin-top: 10px;
+}
+
+.base #container #subContent a {
+    color: #CC0000;
+    text-decoration: none;
+}
+
+.base #container #subContent a:hover {
+    color: #CC0000;
+    text-decoration: underline;
+}
+
+.base #container .subContentHeader1 {
+    margin: 0;
+    padding: 10px 0px 0px 0px;
+}
+
+.base #container .subContentSeries1 {
+    padding: 0px 10px;
+    background-color: #EEEEEE;
+    border-top: solid #DDDDDD 1px;
+    height: 90px;
+}
+
+.base #container .subContentDescription1 {
+    padding: 0px;
+}
+
+.base #container .subContentHeader2 {
+    background-color: #FCFCFC;
+    padding: 10px 0px 0px 0px;
+}
+
+.base #container .subContentSeries2 {
+    background-color: #FCFCFC;
+    padding: 0 10px;
+    margin-top: 0px;
+    border-top: solid #CCCCCC 1px;
+    height: 90px;
+}
+
+.base #container .subContentDescription2 {
+    padding: 0px;
+}
+
+.base #container .icon {
+    text-align:center;
+    border: solid #FFFFFF 4px;
+    float:right;
+    height:auto;
+    width:68;
+    margin:0px -10px 0px 3px;
+    background-color:#FFFFFF;
+    padding:3px;
+}
+
+.base #container .icon:hover {
+    border: solid #CC0000 4px;
+    background-color:#CC0000;
+}
+
+.base #container .icon img {
+    height: 60px;
+    width: 60px;
+    padding-bottom: 3px;
+}
+
+.base #container .subContentSeries1 .icon a {
+    color: #000000;
+}
+.base #container .subContentSeries1 .icon a:hover {
+    color: #FFFFFF;
+}
+
+.base #container .subContentSeries2 .icon a {
+    color: #000000;
+}
+.base #container .subContentSeries2 .icon a:hover {
+    color: #FFFFFF;
+}
+
+/* <-- sub content block for no-left-sidebar version */
+
+.base #subContentNoLeft {
+    background-color: #FFFFFF;
+    margin-right: 200px;
+    margin-left: 0px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    padding: 0;
+    font-size:11px;
+}
+
+.base #container #subContentNoLeft a {
+    color: #CC0000;
+    text-decoration: none;
+}
+
+.base #container #subContentNoLeft a:hover {
+    color: #CC0000;
+    text-decoration: underline;
+}
+
+/* --> end sub content block for no-left-sidebar version */
+
+.base #footer {
+    padding: 10px 0px 10px 0px;
+    background:#DDDDDD;
+    font-size:10px;
+    width: 920px;
+    position: relative;
+    margin-top: 10px;
+}
+
+.base #footer p {
+    margin: 0; 
+    padding: 10px 0;
+}
+
+.base #footer ul {
+    list-style-position: inside;
+    list-style-type: none;
+}
+.base #footer .footer1 {
+    float: left;
+    padding-right: 50px;
+    margin: 0;
+    padding-left: 20px;
+}
+.base #footer .footer2 {
+    float: inherit;
+    padding-left: 10px;
+    margin: 0;
+}
+
+.fltrt { 
+    float: right;
+    margin-left: 8px;
+}
+
+.fltlft {
+    float: left;
+    margin-right: 8px;
+}
+
+/* --> end css applying to sub-splash pages */
+
+/* <-- begin css applying to splash page */
+
+.indexContainer {
+    text-align: left;
+    font-family: "Lucida Grande CE", Verdana, Arial, Helvetica, sans-serif;
+    font-size: small;
+    vertical-align: top;
+}
+
+.indexHeader {
+    width:900px;
+    left:100px;
+    margin-top:10px;
+    padding:10px;
+    background-image: url(foneshow.png);
+    background-position: left center;
+    background-repeat: no-repeat;
+}
+
+.indexHeader h1 {
+    margin-top:-15px;
+    visibility: hidden;
+}
+
+.floatimgIndex {
+    position:relative;
+    float:right;
+    margin-top:-120;
+    margin-right:-15px;
+    margin-top: -90px;
+}
+.buttons {
+    background:#FFF;
+    background-color:#fdf7ba;
+    text-align:center;
+    left:90px;
+    width:920px;
+    vertical-align: bottom;
+    padding-top: 25px;
+    padding-bottom: 10px;
+    margin-top: -10px;
+    border-top: solid #CCCCCC 1px;
+    border-bottom: solid #CCCCCC 1px;
+
+}
+
+.pullquote {
+    background:#FFF;
+    background-color:#FFF;
+    text-align:center;
+    width:900px;
+    left:90px;
+    padding:10px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 1.2em;
+}
+
+.indexFooter {
+    background:#DDD;
+    left:90px;
+    top:408px;
+    width:900px;
+    margin-top:20px;
+    border-bottom-color:#666;
+    border-bottom-style:solid;
+    border-bottom-width:1px;
+    font-size:x-small;
+    padding:10px;
+}
+
+.indexFooter li {
+    list-style-type: none;
+}
+
+.source {
+    margin:0;
+    padding:0px 0 0 150px;
+    margin-top: -10px;
+}
+
+.indexHeader h1,.oneColFixCtrHdr #indexFooter p {
+    margin:0;
+    padding:10px 0;
+}
+
+.container #indexHeader {
+    background-image: url(foneshow.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+
+div.splashrow
+{
+width: 880;
+height: 200px;
+padding: 10px;
+align: center;
+}
+
+p.splashrowtext
+{
+    letter-spacing: .2ex;
+}
+
+p.splashrowtext b
+{
+    font-weight: bold;
+    color: #4682B4;
+    font-size: 20px;
+}
+
+p.splashrowtext a
+{
+    color: #CD5C5C;
+    text-indent: 10px;
+    font-size: 18px;
+}
+
+dl.splashgallery
+{
+width: 122px;
+text-align: center;
+padding-top: 0px;
+padding-left: 20px;
+padding-right: 20px;
+padding-bottom: 20px;
+
+float: left;
+margin-right: 1em;
+}
+
+.splashgallery dt { font-weight: bold; }
+
+.splashgallery dt img
+{
+border: 1px solid #000;
+width: 120px;
+height: 120px;
+}
+
+.splashgallery dd
+{
+margin: 0;
+padding: 0;
+vertical-align: middle;
+}
+
+.splashgallery dd a
+{
+color: red;
+}
+
+/* --> end css applying to splash page */
